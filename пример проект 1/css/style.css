@@ -66,11 +66,13 @@ body {
 
 main {
 	display: flex;
+	gap: 20px;
 }
 
 
 .side_navigation {
-    width: 430px;
+	display: block;
+    width: 450px;
 	background: #E6E2E2;
     border: 1px solid #BBB5B5;
 	padding: 0;
@@ -123,6 +125,11 @@ main {
 .site-navigation-item:active a {
    color: #FFA800;
    text-decoration-color: #FFA800;
+}
+
+.active-page {
+	color: #FFA800;
+	text-decoration-color: #FFA800;
 }
 
 
@@ -239,3 +246,120 @@ main {
 	color: #FFA800;	
 	text-decoration: none;	
 }
+
+
+
+
+/* В этой части кода стилизация карточек с преподавателями и в целом всей страницы */
+
+#active {
+	color: #FFA800 !important;
+	text-decoration-color: #FFA800 !important;
+}
+
+.search_form {
+	box-sizing: border-box;
+	position: relative;
+}
+
+input[type=search] {
+   padding: 10px;
+   font-size: 20px;
+   line-height: 23px;
+   float: left;
+   width: 880px;
+   background: #FFEECD;
+   border: 1px solid #000000;
+}
+
+input [placeholder] {
+	font-style: italic;
+	font-weight: 100;
+}
+
+.search_button {
+	width: 102px;
+    padding-top: 4px;
+	padding-bottom: 8px;
+	padding-left: 6px;
+	padding-right: 9px;
+	box-sizing: border-box;
+    position: absolute;
+	background: #000000;
+    border: 3px solid #FFA800;
+	cursor: pointer;
+
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+	top: 6px;
+	right: 10px;
+
+    color: #FFFFFF;
+}
+
+.search_button:hover {
+	color: #FFA800;
+	background: linear-gradient(0deg, rgba(252, 241, 218, 0.46), rgba(252, 241, 218, 0.46)), #000000;
+}
+
+.search_button:active {
+	color: #FFA800;
+	background: #F6E8E8;
+}
+.disclaimer {
+	display: block;
+	font-style: italic;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 18px;
+    position: static;
+    color: #000000;
+}
+
+.disclaimer_a {
+	color: #000000;
+	text-decoration: none;
+}
+.cards {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 30px;
+  
+  }
+
+.card {
+	box-sizing: border-box;
+	width: 189px;
+	height: 340px;
+	padding: 0;
+	list-style: none;
+	
+	background: #F5F5F5;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ }
+  
+ .card-photo {
+	margin: 0;
+	margin-bottom: 8px;
+	display: block;
+}
+
+.card-description {
+	margin: 0;
+	margin-bottom: 40px;
+	
+	
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+    text-decoration-line: underline;
+	color: #000000;
+  }
