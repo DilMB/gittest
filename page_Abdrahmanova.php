@@ -7,11 +7,11 @@ if (isset($_POST['username'])) {
   $username = $_POST['username'];
   $comment = $_POST['comment'];
   $date = date(format: "Y-m-d");
-  $teacher = 'ЛатыповНР';
+  $teacher = 'АбдрахмановаАА';
   $username = htmlspecialchars($username);
   $comment = htmlspecialchars($comment);
   $query = $connect->query("INSERT INTO kafedra.comments (username, comment, time, teacher) VALUES ('$username','$comment','$date', '$teacher')");
-  header("Location: http://localhost/example/page_Latypov.php");
+  header("Location: http://localhost/example/page_Abdrahmanova.php");
   exit();
 }
 
@@ -55,16 +55,16 @@ if (isset($_POST['username'])) {
 	</section>
 	
 	<section class="one_teacher_content_place">
-           <h1 class="teacher_name_h1">Латыпов Нияз Растамович</h1>
-           <img class="card-photo-place" src="img/Н.Латыпов.jpg" width="311" height="405" alt="Н.Латыпов">
-           <p class="teacher_base_inf"><u>Дата рождения:</u> 20.12.1982</p>
+           <h1 class="teacher_name_h1">Абдрахманова Алия Альбертовна</h1>
+           <img class="card-photo-place" src="img/А.Абдрахманова.jpg" width="311" height="405" alt="А.Абдрахманова">
+           <p class="teacher_base_inf"><u>Дата рождения:</u> 21.12.1989</p>
            <p class="teacher_base_inf"><u>Занимаемые должности:</u><br>
-            1. доцент, к.н., КФУ / Институт международных отношений / Высшая школа иностранных языков и перевода / Кафедра европейских языков и культур (основной работник) <br>
-            2.доцент, к.н., КФУ / Институт международных отношений / Высшая школа иностранных языков и перевода / Кафедра европейских языков и культур (внутренний совместитель)</p>
+            1. доцент, к.н. , КФУ / Институт международных отношений / Высшая школа иностранных языков и перевода / Кафедра теории и практики перевода (основной работник) <br>
+            2. доцент, к.н. , КФУ / Институт международных отношений / Высшая школа иностранных языков и перевода / Кафедра теории и практики перевода (внутренний совместитель)</p>
            <p class="teacher_base_inf"><u>Рабочий адрес: </u>Казань, ул. М.Межлаука, д. 3/45,<br>
             <u>Учебное здание:</u> 31 <br>
-            <u>Номер кабинета:</u> 213 <br>
-            <u>E-mail:</u> Niyaz.Latypov@ksu.ru</p>
+            <u>Номер кабинета:</u> 245 <br>
+            <u>E-mail:</u> AliyAAbdrahmanova@kpfu.ru</p>
 
             <p class="disclaimer">Оставьте свой отзыв о преподавателе! Это анонимно :) <br>
                 Не забывайте о вежливости: не используйте грубые выражения и матерные слова, ведь все мы ошибаемся...</p>
@@ -79,7 +79,7 @@ if (isset($_POST['username'])) {
 
             <hr>
             <?php
-                $comments = $connect -> query("SELECT * FROM kafedra.comments WHERE teacher = 'ЛатыповНР' ORDER BY id_com DESC");
+                $comments = $connect -> query("SELECT * FROM kafedra.comments WHERE teacher = 'АбдрахмановаАА' ORDER BY id_com DESC");
                 $comments = $comments -> fetchAll();
                 
 

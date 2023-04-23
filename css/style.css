@@ -232,7 +232,8 @@ main {
 	display: flex;
 	list-style: none;
 	padding: 0;
-	margin: 0;	
+	margin: 0;
+	margin-right: 10px;	
 }
 
 .contacts-navigation-item {
@@ -298,7 +299,7 @@ input [placeholder] {
     text-align: center;
 
 	top: 6px;
-	right: 50px;
+	right: 350px;
 
     color: #FFFFFF;
 }
@@ -348,7 +349,9 @@ input [placeholder] {
 	background: #F5F5F5;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
  }
-  
+.card:hover {
+	box-shadow: 0px 4px 4px #FFEECD;
+}
  .card-photo {
 	margin: 0;
 	margin-bottom: 8px;
@@ -365,4 +368,82 @@ input [placeholder] {
 	text-align: center;
     text-decoration-line: underline;
 	color: #000000;
+  }
+
+  /* здесь дизайн страниц, посвященных одному преподу. часть дизайна в коде стр из-за PHP */
+  .one_teacher_content_place {
+   display: flex;
+   flex-direction: column;
+  }
+
+  .teacher_name_h1 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 38px;
+	text-align: center;
+	
+	color: #000000;
+	margin: 15px auto;
+  }
+
+  .card-photo-place {
+	display:block;
+    margin: 0 auto;
+
+	border: 2px solid #000000;
+  }
+
+  .teacher_base_inf {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+.comment_form {
+     display: flex;
+     flex-direction: column;
+}
+
+  .comments_name {
+	width: 331px;
+    height: 37px;
+	background: #FFEECD;
+	margin-bottom: 15px;
+  }
+
+  .comments_name [placeholder] {
+	font-style: italic;
+    font-weight: 200;
+    font-size: 24px;
+  }
+
+  .comments_text {
+	width: 467px;
+	height: 201px;
+    background: #FFEECD;
+	margin-bottom: 20px;
+  }
+
+  .comments_text [placeholder] {
+	font-style: italic;
+    font-weight: 200;
+    font-size: 28px;
+  }
+
+.comments_buttom {
+	width: 90px;
+	height: 50px;
+	background: #FFEECD;
+    border: 1px solid #000000;
+}
+  .comment_answers {
+	background: rgba(182, 73, 249, 0.31);
+    border: 1px solid #000000;
+  }
+
+  .comment_answers:nth-child(2) {
+	background: rgba(235, 255, 0, 0.24);
+    border: 1px solid #000000;
   }
