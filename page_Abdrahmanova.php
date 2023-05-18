@@ -23,27 +23,24 @@ if (isset($_POST['username'])) {
   <head>
     <meta charset="utf-8">
 	<link href="css/style.css" rel="stylesheet">
+   <!-- <link href="css/outline.css" rel="stylesheet">
+   <link href="css/outline-settings.css" rel="stylesheet"> -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Преподаватели</title>
   </head>
-
+  
   <body>
   
-    <header class="main-header">
-    <a class="logo" href="index.html">Кафедра</a>
-	<!-- Тут будет ссылка на главную страницу сайта -->
+
 	
-	<a class="enter_button" href="#">Зайти на кафедру</a>
-	<!-- Тут будет ссылка на форму регистрации и входа на сайт, пока хз что да как -->
-	</header>
-	
-	<main>
+	<main>   
+<div class="left_column">
     <section class="side_navigation">
 	    <nav class="site-navigation">
 	    <ul class="ul_nav">
-		    <li class="site-navigation-item"><a id="active" href="page_teachers_staff.html">Преподаватели</a></li>
+		    <li class="site-navigation-item" ><a id="active" href="page_teachers_staff.html">Преподаватели</a></li>
         <li class="site-navigation-item"><a href="#">Расписание</a></li>
         <li class="site-navigation-item"><a href="#">Мероприятия</a></li>
         <li class="site-navigation-item"><a href="#">Полезная информация</a></li>
@@ -53,6 +50,18 @@ if (isset($_POST['username'])) {
 		<div class="ad_post"><p class="ad_txt">Здесь могла быть ваша реклама</p></div>
 		<div class="ad_post"><p class="ad_txt">Здесь могла быть ваша реклама</p></div>
 	</section>
+</div>
+
+<div class="right_column">
+   <header class="main-header">
+   <div class="right"></div>
+    <a class="logo" href="index.html">Кафедра</a>
+	<!-- Тут будет ссылка на главную страницу сайта -->
+	
+	<a class="enter_button" href="#">Зайти на кафедру</a>
+	<!-- Тут будет ссылка на форму регистрации и входа на сайт, пока хз что да как -->
+	</header>	
+	
 	
 	<section class="one_teacher_content_place">
            <h1 class="teacher_name_h1">Абдрахманова Алия Альбертовна</h1>
