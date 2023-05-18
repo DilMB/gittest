@@ -427,6 +427,7 @@ input [placeholder] {
 .comment_form {
      display: flex;
      flex-direction: column;
+	 
 }
 
   .comments_name {
@@ -447,6 +448,7 @@ input [placeholder] {
 	height: 201px;
     background: #FFEECD;
 	margin-bottom: 20px;
+	
   }
 
   .comments_text [placeholder] {
@@ -470,3 +472,29 @@ input [placeholder] {
 	background: rgba(235, 255, 0, 0.24);
     border: 1px solid #000000;
   }
+
+  /*здесь дизайн страницы-справки*/
+
+  .questions {
+	color: #000000;
+  }
+
+  /*здесь дизайн расписания*/
+
+  table.schedule {
+		font-size: 12px;
+		border: 1px solid #CCC; 
+		font-family: Arial, Helvetica, sans-serif;
+		color:#000000;
+	} 
+	.schedule td {
+		padding: 4px;
+		margin: 3px;
+		border: 1px solid #CCC;
+	}
+	.schedule th {
+		background-color: #104E8B; 
+		color: #CCC;
+		font-weight: bold;
+	}
+
