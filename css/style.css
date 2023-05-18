@@ -170,6 +170,7 @@ main {
 .content_place {
 	display: flex;
 	flex-direction: column;
+	color: #000000;
 }
 
 .welcom_txt {
