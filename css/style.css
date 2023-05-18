@@ -14,7 +14,7 @@ body {
 }
 
 .right {
-	flex: 2.5;
+	flex: 1.5;
 }
 
 .logo {
@@ -25,9 +25,10 @@ body {
     line-height: 47px;
     color: #4169e1;
 	text-decoration: none;
-	padding-top: 10px;
-	padding-left: 10px;
+	padding-top: 20px;
+	padding-left: 100px;
 	padding-bottom: 20px;
+	text-align: left;
 	flex: 2;
 	
 }
@@ -44,7 +45,7 @@ body {
     height: 29px;
 
     top: 0px;	
-	margin-top: 21px;
+	margin-top: 30px;
 	margin-bottom: 22px;
 	align-self: right;
 	flex: 1;	
@@ -412,7 +413,8 @@ input [placeholder] {
 
   .card-photo-place {
 	display:block;
-    margin: 0 auto;
+    margin: 15px auto;
+	
 
 	border: 2px solid #000000;
   }
