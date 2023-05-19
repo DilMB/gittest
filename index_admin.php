@@ -8,13 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/login.css">
-    <title>Login Page</title>
+    <title>Вход</title>
 </head>
  
 <body>
     <form action="validate.php" method="post">
         <div class="login-box">
-            <h1>Login</h1>
+            <h1>Вход для администратора</h1>
  
             <div class="textbox">
                 <i class="fa fa-user" aria-hidden="true"></i>
@@ -29,7 +29,7 @@
             </div>
  
             <input class="button" type="submit"
-                     name="login" value="Sign In">
+                     name="login" value="Войти">
         </div>
     </form>
 </body>

@@ -28,7 +28,7 @@ if (isset($_POST['username'])) {
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <title>Преподаватели</title>
+    <title>Абдрахманова А.А.</title>
   </head>
   
   <body>
@@ -40,10 +40,10 @@ if (isset($_POST['username'])) {
     <section class="side_navigation">
 	    <nav class="site-navigation">
 	    <ul class="ul_nav">
-		    <li class="site-navigation-item" ><a id="active" href="page_teachers_staff.html">Преподаватели</a></li>
-        <li class="site-navigation-item"><a href="#">Расписание</a></li>
-        <li class="site-navigation-item"><a href="#">Мероприятия</a></li>
-        <li class="site-navigation-item"><a href="#">Полезная информация</a></li>
+      <li class="site-navigation-item" ><a id="active" href="http://localhost/example/page_teachers_staff.html">Преподаватели</a></li>
+         <li class="site-navigation-item"><a href="http://localhost/example/schedule.html">Расписание</a></li>
+         <li class="site-navigation-item"><a href="http://localhost/example/events.php">Мероприятия</a></li>
+         <li class="site-navigation-item"><a href="http://localhost/example/page_useful_links.html">Справка</a></li>
 	    </ul>
 	    </nav>
 		
@@ -55,10 +55,10 @@ if (isset($_POST['username'])) {
 <div class="right_column">
    <header class="main-header">
    <div class="right"></div>
-    <a class="logo" href="index.html">Кафедра</a>
+    <a class="logo" href="http://localhost/example/index.php">Кафедра</a>
 	<!-- Тут будет ссылка на главную страницу сайта -->
 	
-	<a class="enter_button" href="#">Зайти на кафедру</a>
+	<a class="enter_button" href="http://localhost/example/index_admin.php">Зайти на кафедру</a>
 	<!-- Тут будет ссылка на форму регистрации и входа на сайт, пока хз что да как -->
 	</header>	
 	
@@ -122,7 +122,7 @@ if (isset($_POST['username'])) {
 	<footer class="main-footer">
         <p class="contacts">Справочная информация. <br>Телефон:<a href="tel:87347635727" class="phone">8 (734) 763-57-27</a> <br> Почта:<a href="mailto:blablabla@mail.ru" class="mail">blablabla@mail.ru</a></p>
 		
-		<a class="logo_downstairs" href="index.html">К</a>
+		<a class="logo_downstairs" href="http://localhost/example/index.php">К</a>
 		<!-- Тут будет ссылка на главную страницу сайта -->
 		
 		<ul class="contacts_ul">

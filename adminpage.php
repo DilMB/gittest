@@ -1,4 +1,4 @@
-<h2> Hello Admin </h2>
+<h2> Работай, администратор </h2>
 
 <?php
 
@@ -18,10 +18,10 @@ if (isset($_POST['header'])) {
 }
 
 ?> 
-
+<p> Здесь добавляются посты с мероприятиями для страницы Мероприятия </p>
 <form class="event_form" action="" method="POST">
                  <input class="events_name" type="text" name="header" placeholder="Заголовок события" required>
                  <textarea class="events_text" name="text" cols="30" rows="7" placeholder="текст события" required></textarea>
-                 <input class="comments_name" type="text" name="image" placeholder="местоположение картинки по принципу img/название" required>
+                 <textarea class="comments_name" type="text" cols="30" rows="7" name="image" placeholder="местоположение картинки по принципу img/название" required></textarea>
                  <input class="comments_buttom" type="submit">
 </form>
