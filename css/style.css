@@ -424,7 +424,7 @@ input [placeholder] {
   .teacher_base_inf {
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 44px;
     line-height: 28px;
 	color: #000000;
   }
@@ -438,7 +438,7 @@ input [placeholder] {
   .comments_name {
 	width: 331px;
     height: 37px;
-	background: #FFEECD;
+	background: #778899;
 	margin-bottom: 15px;
   }
 
@@ -451,7 +451,7 @@ input [placeholder] {
   .comments_text {
 	width: 467px;
 	height: 201px;
-    background: #FFEECD;
+    background: #778899;
 	margin-bottom: 20px;
 	
   }
@@ -465,7 +465,7 @@ input [placeholder] {
 .comments_buttom {
 	width: 90px;
 	height: 50px;
-	background: #FFEECD;
+	background: #d0e6fc;
     border: 1px solid #000000;
 }
   .comment_answers {

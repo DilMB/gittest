@@ -113,9 +113,24 @@ if (isset($_POST['username'])) {
                 
             ?> 
 
-            
-           
-            
+<style>          
+      .comments_name {
+	     background: #d0e6fc;
+  }   
+  
+  .comments_text {
+    background: #d0e6fc;
+  }   
+
+  .comments_buttom {
+    background: #d0e6fc;
+  }   
+
+  .comment_answers {
+    background: #d0e6fc;
+    color: #0d2879;
+  }   
+</style>          
 	</section>
 	</main>
 	
